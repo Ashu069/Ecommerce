@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Muscle Coder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"><img src="Images/header.jpeg" class="logo"/></a>
+      <h1>Muscle Coder</h1>
+      <nav>
+        <ul id="navbar">
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="shop.html" class="active">STORE</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="cart.html"> CART</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section id="product_details">
+      <div class="single_product_image">
+        <img src="Images/Products/muscleblaze.jpeg" width="100%" id="parent_image"alt="" />
+        <div class="category">
+            <div class="footer-img">
+                <img src="Images/Products/MUscleblaze1kg.jpeg" class="child_image">
+            </div>
+            <div class="footer-img">
+                <img src="Images/Products/MUscleBlaze2kg.jpeg" class="child_image">
+            </div>
+            <div class="footer-img">
+                <img src="Images/Products/muscleblaze.jpeg" class="child_image">
+            </div>
+            <div class="footer-img">
+                <img src="Images/Products/muscleBlaze8kg.jpeg" class="child_image">
+            </div>
+        </div>
+      </div>
+      <div class="single_product_details">
+        <h6>Muscleblaze</h6>
+        <h4>MuscleBlaze 100% Isolate Protein</h4>
+        <h6>Price:8000/-</h6>
+        <select>
+          <option>Flavour</option>
+          <option>Rich Milk Chocolate</option>
+          <option>Mango Magic</option>
+          <option>Kulfi Faluda</option>
+          <option>Choco Brownie</option>
+        </select>
+        <input type="number" value="1" />
+        <button>Add to cart</button>
+        <h4>Details</h4>
+        <span>MuscleBlaze ® Raw Whey Protein is an unsweetened and unflavoured high
+          protein fitness supplement used in whichever way the consumers want -
+          different flavours for each serving as per own liking, bake protein
+          cake with it, protein bar, make protein smoothie or fruit shakes with
+          this protein, etc Rigorously Tested & Certified by Labdoor, USA- for
+          accuracy of claims & purity (free from heavy metals, no amino spiking,
+          etc Packed with 80% protein- delivering 24g protein, 11.2g EAAs, 5.2g
+          BCAA & 4.2g Glutamic acid per-serving (of 30g)- makes it one of the
+          most effective protein powders for superior muscle gains Minimal
+          processing ensures the nutrients of Whey protein are preserved as in
+          the original Whey Protein powder- MB is Indias No.1 protein of choice
+          among gym goers. Added enzymes support fast protein digestion External
+          3rd party NABL-accredited lab-tests guarantee purity of Whey Protein
+          Concentrate in MuscleBlaze ® Raw Whey health supplement- every single
+          unit can be verified for authenticity & reports are accessible online
+          for each batch</span>
+      </div>
+    </section>
+
+    <section id="products" class="dummy">
+        <div class="options">!! Other Products !!</div>
+        <div class="product-container">
+        <div class="pro">
+          <img src="Images/Products/muscleblaze.jpeg" />
+          <div class="des">
+            <span>Muscleblaze</span>
+            <h6>Muscleblaze 100% Isolate</h6>
+            <h5>8000/-</h5>
+          </div>
+          <a href="#" class="cart">Add to Cart</a>
+        </div>
+        <div class="pro">
+          <img src="Images/Products/Dymatize.jpeg" />
+          <div class="des">
+            <span>Dymatize</span>
+            <h6>Dymatize Raw 100%</h6>
+            <h5>7200/-</h5>
+          </div>
+          <a href="#" class="cart">Add to Cart</a>
+        </div>
+        <div class="pro">
+          <img src="Images/Products/MUscleTech.jpeg" />
+          <div class="des">
+            <span>MuscleTech</span>
+            <h6>MuscleTech NitroTech Concentrate</h6>
+            <h5>9300/-</h5>
+          </div>
+          <a href="#" class="cart">Add to Cart</a>
+        </div>
+        <div class="pro">
+          <img src="Images/Products/ON.jpeg" />
+          <div class="des">
+            <span>ON</span>
+            <h6>ON Isolate</h6>
+            <h5>8500/-</h5>
+          </div>
+          <a href="#" class="cart">Add to Cart</a>
+        </div>
+        <div class="pro">
+          <img src="Images/Products/MYPROTEIN.jpeg" />
+          <div class="des">
+            <span>MyProtein</span>
+            <h6>MyProtein Concentrate</h6>
+            <h5>6700/-</h5>
+          </div>
+          <a href="#" class="cart">Add to Cart</a>
+        </div>
+        <div class="pro">
+          <img src="Images/Products/UN.jpeg" />
+          <div class="des">
+            <span>Ultimate Nutrition</span>
+            <h6>Ultimate Nutrition 80% Concentrate</h6>
+            <h5>5300/-</h5>
+          </div>
+          <a href="#" class="cart">Add to Cart</a>
+        </div>
+        <div class="pro">
+          <img src="Images/Products/Syntha.jpg" />
+          <div class="des">
+            <span>Syntha</span>
+            <h6>Syntha 6 Extreme</h6>
+            <h5>8200/-</h5>
+          </div>
+          <a href="#" class="cart">Add to Cart</a>
+        </div>
+        <div class="pro">
+          <img src="Images/Products/ISOpure.jpeg" />
+          <div class="des">
+            <span>IsoPure</span>
+            <h6>Isopure Whey</h6>
+            <h5>6900/-</h5>
+          </div>
+          <a href="#" class="cart">Add to Cart</a>
+        </div>
+      </div>
+    </section>
+
+    <script>
+        var parent_img =document.getElementById("parent_image");
+        var child_img =document.getElementsByClassName("child_image");
+        for(let i=0;i<4;i++)
+        {
+            child_img[i].onclick = function(){
+                parent_img.src = child_img[i].src;
+            }
+        }
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

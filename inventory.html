@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inventory</title>
+    <link rel="stylesheet" href="inventorystyle.css"/>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    
+    <header>
+      <div class="nav container">
+        <a href="#" class="logo">Inventory</a>
+        <i class="bx bx-shopping-bag" id="cart-icon"></i>
+        <div class="cart">
+          <h2 class="cart-title"> Cart Checkout ..</h2> 
+          <div class="cart-content"></div>  
+            <div class="total">
+              <div class="total-title">TOTAL</div>
+              <div class="total-price">0</div>
+            </div>
+            <button type="button" class="buy-button">BUY</button>
+            <i class='bx bxs-x-circle' id="close-cart"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="Items">
+      <h2 class="section-title">Shop Products</h2>
+      <div class="shop-content">
+
+        <div class="pro" onclick="window.location.href='Single_product.html'">
+            <img class="item-image" src="Images/Products/muscleblaze.jpeg">
+            <span class="item-brand">Muscleblaze</span>
+            <h6 class="item-desc">Muscleblaze 100% Isolate</h6>
+            <h5 class="item-price">8000</h5>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+        <div class="pro">
+            <img class="item-image" src="Images/Products/Dymatize.jpeg">
+            <span class="item-brand">Dymatize</span>
+            <h6 class="item-desc">Dymatize Raw 100%</h6>
+            <h5 class="item-price">7200</h5>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+        <div class="pro">
+            <img class="item-image" src="Images/Products/MUscleTech.jpeg"> 
+            <span class="item-brand">MuscleTech</span>
+            <h6 class="item-desc">MuscleTech NitroTech Concentrate</h6>
+            <h5 class="item-price">9300</h5>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+
+        <div class="pro">
+            <img class="item-image" src="Images/Products/ON.jpeg">
+            <span class="item-brand">ON</span>
+            <h6 class="item-desc">ON Isolate</h6>
+            <h5 class="item-price">8500</h5>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+
+        <div class="pro">
+            <img class="item-image" src="Images/Products/MYPROTEIN.jpeg">
+            <span class="item-brand">MyProtein</span>
+            <h6 class="item-desc">MyProtein Concentrate</h6>
+            <h5 class="item-price">6700</h5> 
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+
+        <div class="pro">
+            <img class="item-image" src="Images/Products/UN.jpeg">
+            <span class="item-brand">Ultimate Nutrition</span>
+            <h6 class="item-desc">Ultimate Nutrition 80% Concentrate</h6>
+            <h5 class="item-price">5300</h5>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+
+        <div class="pro">
+          ` <img class="item-image" src="Images/Products/Syntha.jpg">
+            <span class="item-brand">Syntha</span>
+            <h6 class="item-desc">Syntha 6 Extreme</h6>
+            <h5 class="item-price">8200</h5>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+
+        <div class="pro">
+            <img class="item-image" src="Images/Products/ISOpure.jpeg">
+            <span class="item-brand">IsoPure</span>
+            <h6 class="item-desc">Isopure Whey</h6>
+            <h5 class="item-price">6900</h5>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+        <div class="pro">
+          <img class="item-image" src="Images/Products/creatine1.jpeg">
+          <span class="item-brand">ON Creatiine</span>
+          <h6 class="item-desc">Monohydrate</h6>
+          <h5 class="item-price">1500</h5>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+        <div class="pro">
+          <img class="item-image" src="Images/Products/creatine2.jpeg">
+          <span class="item-brand">Nutrabay Creatine</span>
+          <h6 class="item-desc">Monohydrate</h6>
+          <h5 class="item-price">1100</h5>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+        <div class="pro">
+          <img class="item-image" src="Images/Products/multivitamin2.jpeg">
+          <span class="item-brand">Himalaya</span>
+          <h6 class="item-desc">Multivitamin</h6>
+          <h5 class="item-price">900</h5>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+        <div class="pro">
+          <img class="item-image" src="Images/Products/multivitaimin.jpeg">
+          <span class="item-brand">Supradin</span>
+          <h6 class="item-desc">Multivitamin capsules</h6>
+          <h5 class="item-price">450</h5>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+      </div>
+    </section>
+
+    <script src="manage_cart.js"></script>
+  </body>
+</html>
